@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-06T12:07:38 IST" name="CrossPlatformSuite" finished-at="2022-10-06T12:08:22 IST" duration-ms="43902">
+    <groups>
+    </groups>
+    <test started-at="2022-10-06T12:07:38 IST" name="RealDeviceTest_siva" finished-at="2022-10-06T12:08:20 IST" duration-ms="41494">
+      <class name="AppMethod.AppiumClick">
+        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppMethod.AppiumClick@5c86a017]" started-at="2022-10-06T12:07:38 IST" name="launch" finished-at="2022-10-06T12:07:57 IST" duration-ms="18835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ca090b810121]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[io.appium.android.apis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[.ApiDemos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://127.0.0.1:4724/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="ApiDemos()[pri:0, instance:AppMethod.AppiumClick@5c86a017]" started-at="2022-10-06T12:07:57 IST" name="ApiDemos" finished-at="2022-10-06T12:08:17 IST" duration-ms="20370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiDemos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppMethod.AppiumClick@5c86a017]" started-at="2022-10-06T12:08:17 IST" name="tearDown" finished-at="2022-10-06T12:08:20 IST" duration-ms="2222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AppMethod.AppiumClick -->
+    </test> <!-- RealDeviceTest_siva -->
+    <test started-at="2022-10-06T12:07:38 IST" name="RealDeviceTest" finished-at="2022-10-06T12:08:22 IST" duration-ms="43901">
+      <class name="AppMethod.AppiumClick">
+        <test-method is-config="true" signature="launch(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AppMethod.AppiumClick@5c7933ad]" started-at="2022-10-06T12:07:38 IST" name="launch" finished-at="2022-10-06T12:07:56 IST" duration-ms="18288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fd09ceee0407]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[io.appium.android.apis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[.ApiDemos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="ApiDemos()[pri:0, instance:AppMethod.AppiumClick@5c7933ad]" started-at="2022-10-06T12:07:56 IST" name="ApiDemos" finished-at="2022-10-06T12:08:21 IST" duration-ms="24908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiDemos -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AppMethod.AppiumClick@5c7933ad]" started-at="2022-10-06T12:08:21 IST" name="tearDown" finished-at="2022-10-06T12:08:22 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AppMethod.AppiumClick -->
+    </test> <!-- RealDeviceTest -->
+  </suite> <!-- CrossPlatformSuite -->
+</testng-results>
